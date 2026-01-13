@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>คู่มือ PSU ปรับแรงดัน</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="คู่มือ DIY การปรับแรงดันจาก PSU ITSONAS/TSUNAS 500W เป็นแหล่งจ่าย DC ปรับได้ 5–36V พร้อมเช็กลิสต์ความปลอดภัย">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>คู่มือ PSU ปรับแรงดัน</h1>
+    <p>การดัดแปลง PSU ITSONAS/TSUNAS 500W เป็นแหล่งจ่ายไฟ DC ปรับได้ 5–36V</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#parts">อะไหล่</a></li>
+      <li><a href="#step1">ขั้นตอน 1</a></li>
+      <li><a href="#safety">ความปลอดภัย</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="parts">
+      <h2>หน้า 1: รายการอะไหล่</h2>
+      <ul>
+        <li>วอลุ่ม 20kΩ พร้อมลูกบิด</li>
+        <li>รีซิสเตอร์ 39kΩ และ 5.6kΩ</li>
+        <li>อินดักเตอร์ 10–30µH</li>
+        <li>คาปาซิเตอร์ Low ESR ≥2200µF/50V</li>
+        <li>ไดโอด TVS 36–40V</li>
+        <li>รีซิสเตอร์ชันต์ 5mΩ</li>
+        <li>Panel VM/AM</li>
+        <li>หลอดไฟรถ 12V</li>
+      </ul>
+      <img src="images/parts.png" alt="ภาพอะไหล่ (parts)">
+    </section>
+
+    <section id="step1">
+      <h2>หน้า 2: ขั้นตอนที่ 1 – ถอดบอร์ด PSU</h2>
+      <p>เปิดฝา PSU และคายประจุคาปาซิเตอร์ HV ด้วยหลอดไฟ 220V หรือวิธีที่ปลอดภัยก่อนเริ่มงาน</p>
+      <img src="images/step1.png" alt="ภาพการถอดบอร์ด PSU">
+    </section>
+
+    <section id="safety">
+      <h2>หน้า 9: เช็กลิสต์ความปลอดภัย</h2>
+      <ul>
+        <li>คายประจุคาปาซิเตอร์ HV ทุกครั้ง</li>
+        <li>ใช้สายไฟและช่องต่อที่รองรับกระแสสูง</li>
+        <li>ตรวจสอบการบัดกรีและการต่อสาย ก่อนเสียบไฟ</li>
+        <li>ติดตั้งฟิวส์ป้องกัน และทดสอบด้วยโหลดจำกัด</li>
+      </ul>
+      <img src="images/safety.png" alt="เช็กลิสต์ความปลอดภัย">
+    </section>
+  </main>
+
+  <button id="backToTop" aria-label="กลับด้านบน">⬆ กลับด้านบน</button>
+
+  <footer>
+    <p>© 2026 Napaphon – คู่มือ DIY PSU ปรับแรงดัน</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
